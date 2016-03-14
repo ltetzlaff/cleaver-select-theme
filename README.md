@@ -4,6 +4,13 @@ Hi there, my handle is "select" and this theme shows a slide overview that allow
 
 While I liked the [reveal theme](https://github.com/sudodoki/reveal-cleaver-theme) I was not able to configure it, and anyway I just wanted to have the slide overview, so I extended the [cleaver-light theme] (https://github.com/sjaakvandenberg/cleaver-light) with a **slide overview**. Press <kbd>ESC</kbd> to get the slide overview and click on a slide to navigate to it. Exit the overview with … <kbd>ESC</kbd>.
 
+And since it was quick and fun I also added fragments. Just add tags with the class `.fragment` around the parts that should appear bit by bit.
+```
+<div class="fragment">Fragment One</div>
+<div class="fragment">Fragment Two</div>
+<div class="fragment">Fragment Tree</div>
+```
+
 Here is a [demo presentation](https://rawgit.com/select/learn-web-development/master/dist/cleaver-select-theme.html).
 
 I also fixed the live reload in the light theme and made the responsive CSS work. Somehow the responsive code was there but acted quite strange.
