@@ -163,6 +163,11 @@ document.addEventListener('DOMContentLoaded', function() {
       navigate(-1);
     };
   }
+  if (document.querySelector('.overview')) {
+    document.querySelector('.overview').onclick = function(e) {
+      toggleOverview();
+    }
+  }
   var $overlays = document.querySelectorAll('.slide-overlay');
   [].forEach.call($overlays, function($overlay) {
     $overlay.onclick = function(event) {

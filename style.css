@@ -159,6 +159,19 @@ img.badge {
   z-index: 3;
 }
 
+.overview {
+  display: inline-block;
+  float: left;
+  color: #C7C7C7;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.overview:hover {
+  color: #1DB4D0;
+}
 .arrow {
   float: left;
   height: 0;
