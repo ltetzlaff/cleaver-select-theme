@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.onkeydown = function(e) {
+    if(e.target.tagName.toLowerCase() === 'textarea') return;
     var kc = e.keyCode;
 
     // left, down, H, J, backspace, PgUp - BACK
